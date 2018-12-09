@@ -1,13 +1,11 @@
 #############################################################################
 #
-# name: 	blackened-sparky (blue)
+# name: 	blackened-sparky-blue
 # made:		Szymon Szadkowski (lami07)
 # site: 	https://github.com/sparkylinux/sparky-community
-# based on:	blackened by Vermaden (vermaden [AT] interia [DOT] pl)
+# based on:	blackened by vermaden (vermaden [AT] interia [DOT] pl)
 #
 #############################################################################
-
-#rootCommand:
 
 menu.frame.font:                 dejavu sans-9:book
 menu.title.font:                 dejavu sans-9:bold
@@ -74,7 +72,6 @@ toolbar.workspace.textColor:                            #ffffff
 
 toolbar.iconbar.empty:					flat
 toolbar.iconbar.empty.pixmap:                           bar.xpm
-#toolbar.iconbar.empty.colorTo:				#000000
 
 toolbar.iconbar.focused:                                flat
 toolbar.iconbar.focused.justify:                        center
@@ -96,7 +93,7 @@ toolbar.button.pressed.picColor:                        #ffffff
 window.alpha:                                           255
 window.bevelWidth:                                      0
 window.borderColor:                                     #000000
-window.borderWidth:                                     1
+window.borderWidth:                                     0
 window.justify:                                         center
 
 window.title.focus:                                     flat
@@ -142,12 +139,19 @@ window.button.unfocus:                                  parentrelative
 window.button.pressed:                                  parentrelative
 
 window.grip.focus:                                      flat
-window.grip.focus.pixmap:                               bar.xpm
+window.grip.focus.color:				#0059d9
+window.grip.focus.colorTo:				#0059d9
 window.grip.unfocus:                                    flat
-window.grip.unfocus.pixmap:                             bar.xpm
+window.grip.unfocus.color:				#000000
+window.grip.unfocus.colorTo:				#000000
+
 
 window.handle.focus:                                    flat
-window.handle.focus.pixmap:                             bar.xpm
+window.handle.focus.color:				#000000
+window.handle.focus.colorTo:				#000000
 window.handle.unfocus:                                  flat
-window.handle.unfocus.pixmap:                           bar.xpm
-window.handleWidth:                                     0
+window.handle.unfocus.color:		   		#000000
+window.handle.unfocus.colorTo:				#000000
+window.handleWidth:                                     2
+
+
